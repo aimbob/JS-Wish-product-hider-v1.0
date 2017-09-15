@@ -1,0 +1,85 @@
+body {
+    padding: 0px;
+    color: rgba(0,0,0,0.7);
+    width: 250px;
+    height: 445px;
+    overflow: hidden;
+    /*
+		background image designed by Designed by Freepik    	
+    	http://www.freepik.com/free-vector/colorful-mountains-wallpapers-for-mobile_1255921.htm
+    */
+	background: #43b8b3 url('../img/balloon-background.jpg') left top no-repeat;
+	-webkit-transition: background-position 0.5s ease-out;
+	-moz-transition: background-position 0.5s ease-out;
+	-o-transition: background-position 0.5s ease-out;
+	transition: background-position 0.5s ease-out;	
+}
+
+body.animate {
+	background-position: left -230px;
+}
+
+
+/* HEADER */
+.header {
+	padding: 60px 10px;
+	background-color: transparent;
+	-webkit-transition: padding 0.5s ease-out;
+	-moz-transition: padding 0.5s ease-out;
+	-o-transition: padding 0.5s ease-out;
+	transition: padding 0.5s ease-out;
+}
+.header h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 12px;
+	text-align: center;
+	color: white;
+}
+.header h2 img {
+	max-width: 80%;
+}
+body.animate .header {
+	padding: 20px 10px;
+}
+
+/* FOOTER */
+.footer {
+	padding: 0 30px 30px 30px;
+	margin: 0;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* FORM */
+#form {
+	margin: 0;
+	padding: 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s ease-out;
+	-moz-transition: opacity 0.2s ease-out;
+	-o-transition: opacity 0.2s ease-out;
+	transition: opacity 0.2s ease-out;
+}
+
+.input-sm {
+	width: 120px;
+	display: inline-block;
+	margin-left: 30px;
+	text-align: center !important;
+}
+
+#form > .wrapper {
+	padding: 0 30px 10px 30px;
+}
+
+body.animate #form {
+	opacity: 1;
+}

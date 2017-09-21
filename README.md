@@ -6,7 +6,7 @@ With this Firefox WebExtensions add-on users can filter products by price range.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This add-on was never submitted to Firefox so it's not available in the Firefox Add-on portal. These instructions will get you a copy of the project up and running on your local machine.
 
 * Download repository
 * Navigate to 'about:debugging' using Firefox

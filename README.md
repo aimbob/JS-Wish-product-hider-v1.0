@@ -1,6 +1,6 @@
 # Wish.com Product Hider
 
-With this Firefox WebExtensions add-on users can filter products on the main results page by price range. By listenening to DOM changes this add-on also removes products that are dynamically added (ex. when scrolling to bottom of page)
+With this Firefox WebExtensions add-on users can filter products on the main results page by price range. By listenening to DOM changes, this add-on can remove products that are dynamically added (ex. when scrolling to bottom of page)
 
 ![preview addon](http://bobvanham.nl/public/git/wish-hider.png)
 
